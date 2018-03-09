@@ -1,0 +1,15 @@
+/**
+* Fixes and improvements to Porto Template
+*
+* Copyright (c) 2016 Improved Software. All rights reserved
+* Author:       Matt Batten <matt@improvedsoftware.com.au>
+*/
+/* Fix tooltip appearing behind modal */
+.tooltip {
+  z-index: 100000;
+}
+
+/* Change font color of job type button delete to white  */
+.btn-danger {
+    color: #fff!important;
+}

@@ -1,0 +1,101 @@
+/**
+*  Set Css for Report Printable table
+*
+*  Copyright (c) 2016 Improved Software. All rights reserved
+*  Author:       gifter Poja<gifter@improvedsoftware.com.au>
+*/
+/* Set header table font */
+
+body {
+	-webkit-print-color-adjust: exact !important;
+}
+
+.header-font {
+	font-size: 11px;
+}
+/* Set table content font */
+.content-font {
+	font-size: 9px
+}
+/* Set header margin */
+.header-margin {
+	margin-top: 9px;
+}
+/* Table size */
+.report-tbl {
+	width: 100%;
+	margin-top: 5px;
+}
+/* Set table padding */
+.tbl-padding {
+	padding: 1px!important
+}
+/* Set job title header */
+.tbl-job-header {
+	background: url('../img/reports/report_job_hdr.png') repeat !important;
+	font-size: 11px;
+}
+
+/* Set row sub total */
+.row-sub-total {
+	background: url('../img/reports/reports_sub_total.png')repeat !important;
+}
+/* Set final total row */
+.row-final-total {
+	background: url('../img/reports/reports_total.png')repeat !important;
+}
+
+/* Set column size table */
+
+.tbl-date {
+	width: 10%!important;
+}
+
+.tbl-staff {
+	width: 15%!important;
+}
+
+.tbl-task {
+	width: 25%!important;
+}
+
+.tbl-desk {
+	width: 25%!important;
+}
+
+.tbl-hr {
+	width: 5%!important;
+}
+
+.tbl-total { 
+	width: 5%!important;
+}
+
+.tbl-arc {
+	width: 5%!important;
+}
+
+.tbl-wo {
+	width: 5%!important;
+}
+
+.tbl-inv {
+	width: 5%!important;
+}
+
+.tbl-border {
+	border-top: 1px solid #ccc;
+}
+
+.archived-row {
+	color: #aaa;
+   font-style: italic;
+}
+.written-off-row {
+	color: #5763fd;
+   font-style: italic;
+}
+	
+.tbl-padding-right {
+	padding-right: 5px !important;
+}

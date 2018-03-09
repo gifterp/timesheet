@@ -1,0 +1,99 @@
+/**
+ * System CSS
+ *
+ * Styles shared by different areas of the system
+ *
+ * Copyright (c) 2016 Improved Software. All rights reserved
+ * Author:      Matt Batten <matt@improvedsoftware.com.au>
+ */
+
+/* Draggable and linked list CSS */
+.non-draggable-title {
+   display: block;
+   height: 26px;
+   margin: 2px 0;
+   padding: 1px 10px 2px;
+   color: #000;
+   text-decoration: none;
+   font-weight: 600;
+   border: 1px solid #bbb;
+   background: #ddd;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   overflow: hidden;
+}
+.draggable-event,
+.filtered-list-link {
+   display: block;
+   height: 26px;
+   margin: 2px 0;
+   padding: 1px 10px 2px;
+   color: #333;
+   text-decoration: none;
+   font-weight: 600;
+   border: 1px solid #ccc;
+   background: #F6F6F6;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   overflow: hidden;
+}
+.draggable-event:hover,
+.filtered-list-link:hover {
+   color: #666;
+   background: #fff;
+   cursor: move;
+}
+.important-list {
+   color: #a94442;
+   background-color: #f2dede;
+   border-color: #ebccd1;
+}
+.important-list:hover {
+   color: #a94442;
+   background-color: #e8c0c0;
+   border-color: #ebccd1;
+}
+.draggable-event-alt {
+   background: #ececec;
+   border: 1px solid #aaa;
+}
+.draggable-event.sub-event,
+.filtered-list-link.sub-link {
+   margin-left: 20px;
+}
+/* Change cursor for link */
+.filtered-list-link:hover {
+   cursor: pointer;
+}
+.draggable-event span,
+.non-draggable-title span,
+.filtered-list-link > span {
+   display: none;
+}
+.dataTables_wrapper .dataTables_empty {
+   padding: 10px 0;
+}
+/* Custom CSS Classes */
+/* Cursor CSS */
+.cursor-hand {
+   cursor: pointer;
+}
+.cursor-move {
+   cursor: move;
+}
+/* White background */
+.white-bg {
+   background-color: #fff !important;
+}
+/* stop lines from breaking */
+.nobr {
+   white-space: nowrap;
+}
+/* Make all row link cursor */
+.datatable-row-link > tbody > tr {
+   cursor: pointer;
+}

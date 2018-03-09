@@ -1,0 +1,19 @@
+<?php
+$lang['mockinvoice_description_name']                         = 'Mock invoice description';
+$lang['mockinvoice_description_sect_title']                   = 'Mock invoice description List';
+$lang['mockinvoice_description_list_title']                   = 'Mock invoice description list';
+$lang['mockinvoice_description_add_btn_text']                 = 'Add description';
+$lang['mockinvoice_description_edit_fm_title']                = 'Edit mock invoice description Details';
+$lang['mockinvoice_description_add_fm_title']                 = 'Add new mock invoice description';
+$lang['mockinvoice_description_fm_name_lbl']              	  = 'Name';
+$lang['mockinvoice_description_fm_name_ph']  					  = 'Add description';
+$lang['mockinvoice_description_tbl_hdr_id']   					  = 'id';
+$lang['mockinvoice_description_tbl_hdr_name']   				  = 'description';
+$lang['mockinvoice_description_tbl_hdr_actions'] 				  = 'Actions';
+$lang['mockinvoice_description_notif_add_success']            = 'New mock invoice description item was added to the system';
+$lang['mockinvoice_description_notif_add_error']              = 'Something went wrong</br>The mock invoice description details were not added';
+$lang['mockinvoice_description_notif_edit_success']           = 'Mock Invoice Description details successfuly updated';
+$lang['mockinvoice_description_notif_edit_error']             = 'Something went wrong</br>The mock invoice description details were not updated';
+$lang['mockinvoice_description_notif_delete_success']         = 'Mock Invoice Description details successfuly deleted';
+$lang['mockinvoice_description_notif_delete_error']           = 'Something went wrong</br>The mock invoice description details were not deleted';
+$lang['mockinvoice_description_notif_load_error']             = 'Something went wrong trying to load the mock invoice description data into the form'; 

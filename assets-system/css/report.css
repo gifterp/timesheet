@@ -1,0 +1,99 @@
+/**
+ * Report CSS
+ *
+ * Styles shared by the reports of the system
+ *
+ * Copyright (c) 2016 Improved Software. All rights reserved
+ * Author:      Matt Batten <matt@improvedsoftware.com.au>
+ */
+/* Report table settings */
+table.table-report th {
+   color: #000;
+}
+table.table-report td {
+   color: #333;
+}
+/* Panel beneath jobs with extra functions */
+.job-control-panel {
+   margin-top: -10px;
+}
+
+/* Total headings */
+.total-heading-row, .task-heading-row-invoice {
+   background-image: -webkit-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
+   background-image: -o-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
+   background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#e8e8e8));
+   background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+   background-repeat: repeat-x;
+}
+.total-subheading {
+   font-weight: bold;
+   background-color: #eee;
+   color: #333;
+}
+/* Report heading */
+.report-heading-row {
+   background-image: -webkit-linear-gradient(top,#fcf8e3 0,#faf2cc 100%);
+   background-image: -o-linear-gradient(top,#fcf8e3 0,#faf2cc 100%);
+   background-image: -webkit-gradient(linear,left top,left bottom,from(#fcf8e3),to(#faf2cc));
+   background-image: linear-gradient(to bottom,#fcf8e3 0,#faf2cc 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);
+   background-repeat: repeat-x;
+}
+/* Highlighted rows of a report */
+tr.report-highlight-row td {
+   background-color: #fcf8e2;
+   border: 1px solid #ccc !important;
+   border-top: 2px solid #999 !important;
+}
+/* Sub totals within the table */
+tr.subtotal-row td {
+   color: #777;
+   background-color: #F2F2F2;
+}
+/* Total for each job */
+.report-total-row {
+   border-top: 2px solid #bbb;
+}
+tr.report-total-row > td {
+   color: #fff;
+   background-color: #aaa !important;
+}
+/* Emphasise a split between rows */
+.split-row-line {
+   border-top: 2px solid #ccc;
+}
+/* Row with archived data */
+tr.archived-row > td {
+   font-style: italic;
+   color: #aaa;
+}
+/* Row with written-off data */
+tr.written-off-row > td {
+   font-style: italic;
+   color: #5763fd;
+}
+/* Gives buttons a 4px top margin - Gap for when they wrap */
+.button-panel-body {
+   padding: 11px 15px 15px 15px
+}
+.button-panel-body > div button,
+.button-panel-body > div a.btn {
+   margin-top: 4px;
+}
+/* Select field to choose an invoice */
+.invoice-select {
+   padding: 5px 12px 6px;
+   height: 34px;
+}
+/* Report column containing checkboxex */
+.checkbox-column {
+   width: 60px;
+   white-space: nowrap;
+}
+/* label used beside switches */
+.switch-label {
+   margin: 12px 0 0 3px;
+   display: inline-block;
+}

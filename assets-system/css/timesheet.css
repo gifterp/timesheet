@@ -1,0 +1,183 @@
+/**
+ * Timesheet diary CSS
+ *
+ * Copyright (c) 2016 Improved Software. All rights reserved
+ * Author:      Matt Batten <matt@improvedsoftware.com.au>
+ */
+
+/* Select2 search field full width */
+li.select2-search,
+input.select2-search__field {
+   width: 100%;
+}
+/* Fix for select2 multiple being cut off */
+input[placeholder] {
+   width: 100% !important;
+} s
+.modal-diary-entry .modal-wrapper {
+   padding: 5px 0;
+} 
+/* Edit form CSS */
+#start-time.form-control[readonly], #end-time.form-control[readonly],
+#start-date.form-control[readonly], #end-date.form-control[readonly] {
+   background-color: #fff;
+}
+/* Hide end date initially, we only show this if multi day entries are allowed */
+.edit-end-date {
+   display: none;
+}
+/* Diary display CSS */
+.fc-time-grid-event .fc-description {
+   padding: 4px 0;  /* Slight spacing around description */
+}
+.fc-time-grid-event.fc-short .fc-task, .fc-time-grid-event.fc-short .fc-description, .fc-time-grid-event.fc-short .fc-task-linked-by {
+   padding: 0 0 0 5px;
+   display: inline-block;
+   vertical-align: top;
+   font-size: .85em; /* make the title text the same size as the time */
+}
+.fc-title {
+   font-weight: bold;
+}
+.fc-time-grid-event .fc-equipment {
+   position: absolute;
+   top: 0px;
+   right: 1px;
+}
+.fc-time-grid-event .fc-description-icon {
+   display: none;
+}
+.fc-time-grid-event.fc-short .fc-description-icon {
+   display: inline-block;
+}
+/* Draggable CSS */
+.non-draggable-title {
+   display: block;
+   height: 26px;
+   margin: 2px 0;
+   padding: 1px 10px 2px;
+   color: #000;
+   text-decoration: none;
+   font-weight: 600;
+   border: 1px solid #bbb;
+   background: #ddd;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   overflow: hidden;
+}
+.draggable-event {
+   display: block;
+   height: 26px;
+   margin: 2px 0;
+   padding: 1px 10px 2px;
+   color: #333;
+   text-decoration: none;
+   font-weight: 600;
+   border: 1px solid #ccc;
+   background: #F6F6F6;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   overflow: hidden;
+}
+.draggable-event-alt {
+   background: #ececec;
+   border: 1px solid #aaa;
+}
+.draggable-event.sub-event {
+   margin-left: 20px;
+}
+
+.draggable-event:hover {
+   color: #666;
+   background: #fff;
+   cursor: move;
+}
+.draggable-event span,
+.non-draggable-title span {
+   display: none;
+}
+#personal-events .draggable-event,
+#personal-events .draggable-event.sub-event {
+   display: inline-block;
+   margin: 2px 0 -4px;
+}
+.add-personal-job-helper {
+   margin: 0 0 5px 10px;
+   display: inline-block;
+}
+/* Start: Admin Settings CSS */
+/* Fix multi select with left and right icons */
+.multi-select-group div.btn-group,
+.multi-select-group button {
+   width: 100%;
+   text-align: left;
+}
+#businessHoursStart.form-control[readonly], #businessHoursEnd.form-control[readonly],
+#scrollTime.form-control[readonly] {
+   background-color: #fff;
+}
+/* End: Admin Settings CSS */
+/* Hour totals CSS */
+span.total-hours {
+   display: inline-block;
+}
+/* General CSS */
+.fa-sm {
+   font-size: 0.7em;
+}
+.fa-md {
+   font-size: 13px;
+   font-weight:bold;
+}
+.hidden {
+   display: none;
+}
+
+
+/* Timesheet Admin  Task General CSS */
+
+/* Group Edit inline form */
+.white-font {
+   color:#fff;
+}
+.group-head {
+   height:37px!important; 
+   cursor:pointer;  
+
+}
+.input-group-name {
+  height:25px!important;
+  padding:1px!important;
+}
+
+
+.color-picker-icon {
+   padding:3px 6px !important;
+}
+.color-picker-input {
+   height:25px!important;
+   width:85px!important;
+}
+.color-picker-head {
+   width:50px !important;
+}
+
+.task-header { 
+   height:35px;
+   border-radius:4px!important;
+}
+
+/* Color picker hex settings */
+.colorpicker-alpha {
+   display:none !important;
+} 
+
+.colorpicker {
+   min-width:128px !important;
+   z-index:99999!important;
+}
+
